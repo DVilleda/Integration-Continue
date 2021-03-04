@@ -3,17 +3,23 @@
   <HelloWorld msg="Welcome to Your Vue.js App"/>
   <Button />
   <Button />
+  <br />
+  <br />
+  <h1>SUPER MEGA BOUTTON</h1>
+  <Message />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import Button from './components/Button.vue'
+import Message from './components/Message.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    Button
+    Button,
+    Message
   }
 }
 </script>
