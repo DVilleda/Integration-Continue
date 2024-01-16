@@ -5,7 +5,7 @@
   <Button />
   <br />
   <br />
-  <h1>SUPER MEGA BOUTTON</h1>
+  <h1>SUPER MEGA BOUTTON!</h1>
   <Message />
 </template>
 
