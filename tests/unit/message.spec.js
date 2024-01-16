@@ -7,7 +7,7 @@ test("changer l'affichage d'un élément p dans le DOM", async () =>{
     const button = screen.getByText('Clique MOI !')
     await fireEvent.click(button)
     await fireEvent.click(button)
-    expect(screen.queryByText('Un message Secret...').style).toHaveProperty(
+    expect(screen.queryByText('2222Un message Secret...').style).toHaveProperty(
         'display',
         'none'
     );
